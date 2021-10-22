@@ -1,0 +1,23 @@
+
+//Fonts imports
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+
+
+%poppins-extralight{
+    font-family: $poppins;
+    font-weight: 200;
+}
+
+%poppins-regular{
+    font-family: $poppins;
+    font-weight: 400;
+}
+
+%poppins-bold{
+    font-family: $poppins;
+}
+

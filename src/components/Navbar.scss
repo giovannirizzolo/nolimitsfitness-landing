@@ -1,0 +1,14 @@
+@import '../common/styles/variables';
+@import '../common/styles/dark';
+
+.navbar{
+    .MuiButton-root{
+        .MuiButton-label{
+            font-size: $nav-buttons;
+        }
+        color: $primary-dark;
+    }
+    
+
+    
+}

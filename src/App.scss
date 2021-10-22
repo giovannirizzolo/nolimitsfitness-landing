@@ -1,0 +1,60 @@
+@import './common/styles/dark';
+@import './common/fonts/fonts';
+
+
+
+*{
+  margin: 0;
+}
+
+.App{
+  @extend %poppins-regular;
+
+  height: 100vh;
+  a{
+    text-decoration: none !important;
+  }
+
+  .intro, .slider{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .text-container{
+      width: max-content;
+
+      .text{
+        text-align: start;
+        font-size: 70px;
+      }
+
+      .hide{
+        // background-color: $home-bcg-color-dark;
+        overflow: hidden;
+
+        .text{
+          transform: translateY(100%);
+          display: inline-block;
+        }
+
+      }
+    }
+
+  }
+
+  .intro{
+    background-color: $home-bcg-color-dark;
+  }
+
+  .slider{
+    transform: translateY(100%);
+    background-color: $main-yellow-dark;
+  }
+}
